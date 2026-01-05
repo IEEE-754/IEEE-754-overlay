@@ -1,0 +1,13 @@
+BDEPEND=|| ( app-arch/7zip app-arch/p7zip )
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=LZMA Stream Compressor from the SDK
+EAPI=8
+HOMEPAGE=https://www.7-zip.org/sdk.html
+INHERIT=toolchain-funcs unpacker
+IUSE=doc
+KEYWORDS=amd64
+LICENSE=public-domain
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/sevenzip/lzma2501.7z -> lzma-25.01.7z
+_eclasses_=toolchain-funcs	30214924c0c3b92ec7dbf24fc70d60d3	multiprocessing	1e32df7deee68372153dca65f4a7c21f	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627
+_md5_=4ab72f191df0295a9f7b9bfc54b015d2
